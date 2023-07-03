@@ -1,20 +1,17 @@
 # Ambio
 This website is only looking for two things, good aesthetics and relaxation.
 
-<br>
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-<br>
 ## Features
 - Good aesthetics and relaxing design.
 - Multiple background music options (LoFi Girl, Sea, Rain, Forest, Indie).
 - Ability to set a specific stop time for the music playback.
 
-<br>
 ## How to use?
 You need to download the files and images just like they are in this repository. Then open the 'index.html' in your browser by double clicking, choose the sound you want to hear, press play and enjoy.
 
@@ -28,7 +25,6 @@ Also you can set the time at which you want the playback to stop by clicking the
 <img width="253" alt="image" src="https://github.com/juanAT520/Ambio/assets/106825751/9ff36dca-4b40-421f-9ab8-669838bacd36">
 <img width="215" alt="image" src="https://github.com/juanAT520/Ambio/assets/106825751/d779b878-5978-46a6-85ec-cdd1605cfea3">
 
-<br>
 ## How it works?
 ### Let's start by the HTML.
 
@@ -47,7 +43,6 @@ The header of the body has a div to contain the timer, the title and the cover w
 Inside the nav i have a list with each section of the website and the calls to the JS (Each call has a 'VideoID' and an 'Index' as parameters for the player constructor)
 The last two lines are for the container for the player and the link to the JS file.
 
-<br>
 ### Now the script.
 
 <img width="464" alt="image" src="https://github.com/juanAT520/Ambio/assets/106825751/0421499d-b18f-4bcf-95a7-7a0b64427793">
