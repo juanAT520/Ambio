@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambio</title>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <link rel="icon" href="./img/icono.svg" type="image/ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi">
+  </head>
+  <body>
+    <header>
+      <div id="backImage"></div>
+      <div id="labelTime">
+        <div id="watchIcon"><img src="./img/timer.svg" alt="iconoReloj"></div>
+        <div id="stopTimeContainer">
+          <label for="stopTime"></label>
+          <input type="time" id="stopTime">
+          <button id="confirmButton">Confirm</button>
+        </div>
+      </div>
+      <div id="tittle">LoFi Girl</div>
+      <div id="cover"><img src="./img/LoFi girl.webp" alt="LoFiGirl"></div>
+      <label class="button" id="play">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </header>
+    <nav>
+      <ul>
+        <li class="playPauseButton" onclick="togglePlayPause('jfKfPfyJRdk', 0)">LoFi Girl</li>
+        <li class="playPauseButton" onclick="togglePlayPause('AMNyQds2ABQ', 1)">Sea</li>
+        <li class="playPauseButton" onclick="togglePlayPause('mPZkdNFkNps', 2)">Rain</li>
+        <li class="playPauseButton" onclick="togglePlayPause('FxAgAyZYXJ8', 3)">Forest</li>
+        <li class="playPauseButton" onclick="togglePlayPause('nqPKYY7mE7A', 4)">Indie</li>
+        <!-- nqPKYY7mE7A nif7-fGMSAs-->
+      </ul>
+    </nav>
+    <div id="player"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
